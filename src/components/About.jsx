@@ -4,10 +4,12 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import ServiceCard from './ServiceCard';
+import { SectionWrapper } from '../hoc';
 
 const About = () => {
   return (
-    <section className='flex min-h-screen flex-col container mx-auto px-12 py-4'>
+    // flex min-h-screen flex-col container mx-auto px-12 py-4
+    <section>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-slate-300`}>
           Introduciton
@@ -38,4 +40,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about");
