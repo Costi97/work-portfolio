@@ -37,7 +37,7 @@ import {
     {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
   const services = [
@@ -56,7 +56,7 @@ import {
     {
       title: "Content Creator",
       icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -111,7 +111,7 @@ import {
     {
       name: "docker",
       icon: docker,
-    },
+    }
   ];
   
   const experiences = [
@@ -166,7 +166,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -193,7 +193,7 @@ import {
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    }
   ];
   
   const projects = [
@@ -259,7 +259,12 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
-    },
+    }
   ];
+
+  const imagesAttribution = {
+    backgroundWawe: '<a href="https://www.freepik.com/free-vector/3d-abstract-wave-pattern-background-vector_18880200.htm#page=2&query=cyberpunk&position=2&from_view=keyword&track=sph&uuid=e2127665-f31c-45d0-8219-44a0cc7d0d5b">Image by rawpixel.com</a> on Freepik',
+    background2: '<a href="https://www.freepik.com/free-vector/black-background-with-light-pattern-black-background_39202421.htm#query=coding&position=26&from_view=search&track=sph&uuid=c46e00c6-f069-47a6-8018-dade8bb10fb1">Image by AndreaCharlesta</a> on Freepik'
+  }
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, imagesAttribution };

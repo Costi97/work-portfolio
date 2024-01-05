@@ -1,21 +1,23 @@
-import './App.css'
+import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 
-import { About, Experience, Feedbacks, Hero, Navbar, Tech, Works} from './components';
+import { About, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components';
 
 function App() {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div className='bg-[url("./src/assets/herobg2.jpg")] bg-cover bg-no-repeat bg-center'>
           <Navbar />
-          <Hero />
+          <div className='container mx-auto'>
+            <Hero />
+          </div>
         </div>
-        <About />
+        {/* <About />
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Feedbacks /> */}
       </div>
     </BrowserRouter>
   )
