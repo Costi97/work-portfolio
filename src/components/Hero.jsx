@@ -1,5 +1,4 @@
 import React from 'react'
-import { hero } from '../assets'
 import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
@@ -22,7 +21,7 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className='text-white sm:text-3xl lg:text-5xl text-lg pt-10'>
+          <p className='text-slate-100 sm:text-3xl lg:text-5xl text-lg pt-10'>
             I am a software developer, gamer <br/> and computer geek based in Italy.
           </p>
         </div>

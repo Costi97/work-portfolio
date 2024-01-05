@@ -42,19 +42,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "CI/CD",
       icon: creator,
     }
   ];
@@ -264,7 +260,9 @@ import {
 
   const imagesAttribution = {
     backgroundWawe: '<a href="https://www.freepik.com/free-vector/3d-abstract-wave-pattern-background-vector_18880200.htm#page=2&query=cyberpunk&position=2&from_view=keyword&track=sph&uuid=e2127665-f31c-45d0-8219-44a0cc7d0d5b">Image by rawpixel.com</a> on Freepik',
-    background2: '<a href="https://www.freepik.com/free-vector/black-background-with-light-pattern-black-background_39202421.htm#query=coding&position=26&from_view=search&track=sph&uuid=c46e00c6-f069-47a6-8018-dade8bb10fb1">Image by AndreaCharlesta</a> on Freepik'
+    background2: '<a href="https://www.freepik.com/free-vector/black-background-with-light-pattern-black-background_39202421.htm#query=coding&position=26&from_view=search&track=sph&uuid=c46e00c6-f069-47a6-8018-dade8bb10fb1">Image by AndreaCharlesta</a> on Freepik',
+    fullStack: 'Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-sql-illustration_22112356.htm#query=full%20stack&position=8&from_view=search&track=ais&uuid=5b627cf3-2825-4535-b952-7c5b507404a4">Freepik</a>',
+    backend: '<a href="https://www.freepik.com/free-vector/computer-technology-isometric-icon-server-room-digital-device-set-element-design-pc-laptop_4103157.htm#query=servers&position=2&from_view=search&track=sph&uuid=cb22968e-f799-45af-8c33-108056860eb9">Image by fullvector</a> on Freepik',
   }
   
   export { services, technologies, experiences, testimonials, projects, imagesAttribution };

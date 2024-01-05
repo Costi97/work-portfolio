@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-
 import { About, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components';
 
 function App() {
@@ -13,8 +12,8 @@ function App() {
             <Hero />
           </div>
         </div>
-        {/* <About />
-        <Experience />
+        <About />
+        { /* <Experience />
         <Tech />
         <Works />
         <Feedbacks /> */}
