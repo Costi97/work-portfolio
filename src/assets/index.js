@@ -20,6 +20,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import coldfusion from "./tech/coldfusion.png";
+import angular from "./tech/angular.png";
+import postgresql from "./tech/postgresql.png";
+import mantis from "./tech/mantis.png";
+import jenkins from "./tech/jenkins.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,5 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
-  tesisquare
+  tesisquare,
+  java,
+  coldfusion,
+  angular,
+  postgresql,
+  mantis,
+  jenkins
 };

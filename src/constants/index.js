@@ -23,7 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
-    tesisquare
+    tesisquare,
+    java,
+    coldfusion,
+    angular,
+    postgresql,
+    mantis,
+    jenkins
   } from "../assets";
   
   export const navLinks = [
@@ -74,40 +80,40 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Java",
+      icon: java
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "CFML",
+      icon: coldfusion
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Angular",
+      icon: angular
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "postgresql",
+      icon: postgresql
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "jenkins",
+      icon: jenkins,
+    },    
+    {
+      name: "mantis",
+      icon: mantis
     }
   ];
   

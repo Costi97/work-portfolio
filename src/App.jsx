@@ -14,8 +14,8 @@ function App() {
         </div>
         <About />
         <Experience />
-        { /* <Tech />
-        <Works />
+        <Tech />
+        { /* <Works />
         <Feedbacks /> */}
       </div>
     </BrowserRouter>
