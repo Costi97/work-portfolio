@@ -21,12 +21,12 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-slate-100 text-[17px] max-w-3xl leading-[30px]'
-        >
-          My project..... da cambiare ciaoasopasodpasodasdjdjklsdjflkdsjfksdfjjkhdsfjkdsfsdfjkjhsdfkjsdfhjksdfhkjsdfkjsdfkj
-        </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-[17px] max-w-3xl leading-[30px] text-slate-100'
+      >
+        This is the section of my personal projects.
+      </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>

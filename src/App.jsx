@@ -5,7 +5,7 @@ import { About, Experience, Contact, Hero, Navbar, Tech, Works } from './compone
 function App() {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <div className='relative z-0'>
         <div className='bg-[url("./src/assets/herobg2.jpg")] bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <div className='container mx-auto'>
