@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    tesisquare
   } from "../assets";
   
   export const navLinks = [
@@ -112,56 +113,30 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "Full Stack Developer",
+      company_name: "Tesisquare",
+      icon: tesisquare,
+      iconBg: "#FFFFFF",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Engaged in the development and maintenance of critical functionalities for a retail front-office management web application.",
+        "Pioneered the creation of a new invoice management system, introducing efficiency and precision to financial transaction processes.",
+        "Led the reconstruction of the campaign manager functionality, simplifying the user experience and optimizing processes.",
+        "Orchestrated the successful release of new major versions, providing comprehensive customer support."
+      ]
+    },
+    {
+      title: "Back End Developer",
+      company_name: "Tesisquare",
+      icon: tesisquare,
+      iconBg: "#FFFFFF",
+      date: "Oct 2019 - Dec 2022",
+      points: [
+        "Engineered and maintained resilient RESTful APIs, enhancing the platform's connectivity and facilitating seamless data interaction.",
+        "Implemented advanced algorithms to optimize database queries, significantly reducing response times.",
+        "Successfully managed the comprehensive maintenance of the entire application, consistently meeting and exceeding KPI targets.",
+        "Took a leadership role in coaching and educating new team members, ensuring a smooth onboarding process."
+      ]
     }
   ];
   

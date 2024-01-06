@@ -13,8 +13,8 @@ function App() {
           </div>
         </div>
         <About />
-        { /* <Experience />
-        <Tech />
+        <Experience />
+        { /* <Tech />
         <Works />
         <Feedbacks /> */}
       </div>
