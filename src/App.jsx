@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-import { About, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components';
+import { About, Experience, Contact, Hero, Navbar, Tech, Works } from './components';
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
         <About />
         <Experience />
         <Tech />
-        { /* <Works />
-        <Feedbacks /> */}
+        <Works />
+        <Contact />
       </div>
     </BrowserRouter>
   )

@@ -36,6 +36,7 @@ import tesisquare from './company/tesisquare.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portfolioproject from "./portfolioproject.png"
 
 export {
   logo,
@@ -72,5 +73,6 @@ export {
   angular,
   postgresql,
   mantis,
-  jenkins
+  jenkins,
+  portfolioproject
 };
