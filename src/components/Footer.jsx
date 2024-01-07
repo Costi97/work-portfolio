@@ -4,7 +4,7 @@ import { imagesAttribution } from '../constants';
 const Footer = () => {
 
   const renderJSX = () => {
-    return { __html: imagesAttribution.background2 };
+    return { __html: imagesAttribution.background };
   };
 
   return (
