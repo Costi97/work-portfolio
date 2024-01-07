@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className='relative z-0'>
-        <div className='bg-[url("./src/assets/herobg.jpg")] bg-cover bg-no-repeat bg-center'>
+        <div className='bg-[url("../src/assets/herobg.jpg")] bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <div className='container mx-auto'>
             <Hero />

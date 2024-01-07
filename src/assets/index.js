@@ -22,7 +22,7 @@ import mantis from "./tech/mantis.png";
 import jenkins from "./tech/jenkins.png";
 
 import tesisquare from './company/tesisquare.png';
-
+import herobg from './herobg.jpg';
 
 
 import portfolioproject from "./portfolioproject.png"
@@ -50,5 +50,6 @@ export {
   postgresql,
   mantis,
   jenkins,
-  portfolioproject
+  portfolioproject,
+  herobg
 };
